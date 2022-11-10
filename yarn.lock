@@ -1577,6 +1577,11 @@
   resolved "https://registry.yarnpkg.com/@pmndrs/cannon-worker-api/-/cannon-worker-api-2.3.0.tgz#5ef133833ef858a264d95fc70106ca567f113475"
   integrity sha512-XFR/IABU6uIEllocfGBV9SVakQWIYrZq/Ijk2ZYTv2jYorDebvT4cW8GWIE6UO/T/NChpI+fBTGlUs6wwZW5sg==
 
+"@rails/actioncable@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.4.tgz#70a3ca56809f7aaabb80af2f9c01ae51e1a8ed41"
+  integrity sha512-tz4oM+Zn9CYsvtyicsa/AwzKZKL+ITHWkhiu7x+xF77clh2b4Rm+s6xnOgY/sGDWoFWZmtKsE95hxBPkgQQNnQ==
+
 "@react-three/cannon@^6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@react-three/cannon/-/cannon-6.5.0.tgz#72077716a5e51f37339134de261de5244d034787"

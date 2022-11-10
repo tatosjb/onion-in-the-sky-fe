@@ -7,5 +7,9 @@ export default function useGlobeRef() {
     globeRef.current.pointOfView({ lat: latitude, lng: longitude }, duration);
   }, []);
 
-  return { globeRef, pointOfView };
+  const pauseAnimation = useCallback(() => {
+    globeRef.current.pauseAnimation();
+  }, []);
+
+  return { globeRef, pointOfView, pauseAnimation };
 }
