@@ -16,6 +16,12 @@ function CoordsProvider({ children }) {
           longitude: geolocation.coords.longitude
         });
       })
+      .catch((e) => {
+        setCoords({
+          latitude: 0,
+          longitude: 0
+        });
+      })
       .finally(() => {
         setLoading(false);
       });
